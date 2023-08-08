@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+      }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+      display: inline-block;
+      
+    }
+    body{
+      background-color: hsl(217, 54%, 11%);
+    }
+    .boxed{
+      width: 16%;
+      height: 100%;
+      background-color: hsl(216, 50%, 16%) ;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 100px auto;
+      box-shadow: 25px 24px 0.35 hsl(216, 50%, 16%) ;
+      
+    }
+    .another{
+      padding: 10px 10px;
+      border-radius: 20px;
+    }
+    .flex{
+      display: flex;
+      
+      Justify-content:space-between;
+      
+    }
+    .flex1{
+      display: flex;
+      text-align: center;
+      align-items: center;
+    }
+   .name{
+    padding: 10px;
+   }
+   .name1{
+    padding: 5px;
+   }
+  
+    
+  </style>
+</head>
+<body >
+<div class="boxed">
+  <img src="images/image-equilibrium.jpg" class="another" width="220px" alt="">
+  <h2 style="color: white;font-size: 18px;font-family: 'Outfit', sans-serif; ">Equlibrium #3429</h2>
+  <div style="color: hsl(215, 51%, 70%);font-family: 'Outfit', sans-serif;">Our Equilibrium collection promotes balance and calm.</div>
+  <br>
+  <div class="flex">
+    <div style="color: hsl(178, 100%, 50%)" class="flex1"><div class="name1"><img src="images/icon-ethereum.svg"  alt=""></div><div style="font-family: 'Outfit', sans-serif;">0.041ETH</div></div>
+    <div style="color: hsl(215, 51%, 70% );" class="flex1"><div class="name1"><img src="images/icon-clock.svg" alt=""></div><div style="font-family: 'Outfit', sans-serif;">  3 days left</div></div>
+  
+  </div>
+    
+  
+  <hr>
+  <div class="flex1"> <div class="name"><img src="images/image-avatar.png" width="40px"></div><div> <span style="color: hsl(215, 51%, 70%);font-family: 'Outfit', sans-serif;">
+    Creation of </span> <span style="color: white;font-family: 'Outfit', sans-serif;"> Jules Wyvern</span></div>
+ </div>
+</div>
+  
+  
+  <div class="attribution">
+
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Harini</a>.
+  </div>
+</body>
+</html>
